@@ -2,6 +2,7 @@
   "expo": {
     "name": "context_modal",
     "slug": "context_modal",
+    "scheme": "context_modal",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
