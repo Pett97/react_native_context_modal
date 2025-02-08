@@ -17,9 +17,13 @@ const globalStyle = (THEME:ThemeType) =>
       fontWeight: "bold",
       marginVertical: 4,
       color: THEME.secondary,
-      backgroundColor: THEME.tertiary,
       width: "100%",
     },
+    link:{
+      backgroundColor: THEME.tertiary,
+      fontSize:17,
+      fontWeight:"bold"
+    }
   });
 
   export default globalStyle;

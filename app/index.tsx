@@ -15,12 +15,19 @@ function index() {
 
   return (
     <View style={globalStyle(theme).container}>
-      <View >
+      <View>
         <Button title="Trocar Tema" onPress={toggleTheme} />
-        <Text style={globalStyle(theme).title}>123123</Text>
+        <Text style={globalStyle(theme).title}>Apenas um Texto De exemplo</Text>
       </View>
       <View>
-        <Link href="/teste">TEst</Link>
+        <Link style={globalStyle(theme).link} href="/teste">
+          <Text style={globalStyle(theme).title}>Teste Card Galio FrameWork</Text>
+        </Link>
+      </View>
+      <View>
+        <Link style={globalStyle(theme).link} href="/testeModal">
+          <Text style={globalStyle(theme).title}>Campos</Text>
+        </Link>
       </View>
     </View>
   );
